@@ -1,0 +1,145 @@
+body{
+	background-color: gainsboro;
+}
+.main{
+	padding:0;
+	margin:0;
+	width: 550px;
+	font-family: sans-serif;
+	height:700px;
+	background-color:white;
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+}
+/* header */
+header{
+	height:200px;
+	width: 100%;
+}
+img{
+	float: left;
+	border-radius: 50%;
+}
+.name{
+	width:350px;
+	float: left;
+	text-align: center;
+}
+.name p{
+	text-align:justify;
+	padding:10px;
+	font-size: 16px;
+}
+.name h4{
+	padding:3px 3px 0px 3px;
+}
+.name a{
+	text-decoration: none;
+}
+/* ::content */
+section>.cp>h3{
+	margin-bottom:5px;
+	padding:0px 15px 0px 15px;
+}
+section>.cp>ul{
+	background-color: black;
+	margin:0px;
+	padding:0px;
+}
+section>.cp>ul>li{
+ display:inline-block;
+ padding:15.245px;
+}
+section>.cp>ul>li>a{
+	display: block;
+	text-decoration: none;
+	/* color:black; */
+	color:white;
+}
+section>.cp>ul>li:hover{
+	background-color: orange;
+}
+.studies>.education h3{
+   margin: 5px;
+   padding:10px;
+}
+.studies>.education>.box2{
+	float: left;
+	width:30%;
+	margin:2px;
+	padding-right: 7px;
+	padding-left: 7px;
+	background-color: yellowgreen;
+}
+.studies>.education>.box2>h3{
+	margin:5px;
+	padding:5px;
+}
+.studies>.education p{
+	padding:2px;
+}
+.studies>.education>h3{
+	text-decoration: underline;
+	padding:4px 0px 0px 8px;
+}
+section>.box1{
+	float: left;
+}
+/* others */
+.others{
+	width:auto;
+	height: 185.43px;
+	background-color: teal;
+	color:white;
+}
+.others>.box1>ul{
+	list-style-type: none;
+	padding: 0;
+	margin:0;
+}
+.others>.box1{
+	margin-right:18px;
+}
+.others>.box1>h3{
+	margin:0;
+	padding:15px;
+}
+.box1:nth-child(1),.box1:nth-child(3){
+	margin-left:25px;
+}
+.box1:nth-child(2){
+ margin-left:25px;
+}
+.box1:nth-child(4),.box1:nth-child(2){
+	margin-right:0px;
+}
+.others>.box1>ul{
+	margin:0px;
+	padding:0px 10px 10px 10px;
+}
+.others>.box1>ul>li{
+	display: inline;
+}
+.others>.box1>ul>li>a{
+	display:block;
+	padding:2px;
+	margin:0px;
+}
+/* last */
+.last{
+	height: auto;
+	text-align: center;
+	background-color: crimson;
+	margin:0;
+}
+.last>p{
+	color:black;
+	 margin:0;
+     padding:10px;
+	font-size: small;
+}
+.clearr{
+	clear: both;
+}
